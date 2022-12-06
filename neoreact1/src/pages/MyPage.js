@@ -8,7 +8,7 @@ const MyPage = () => {
   return (
     <>
       <Helmet>
-          <title>私の情報 - Tomato World</title>
+          <title>私の情報 - KeyKey World</title>
       </Helmet>
       <GnbContainer />
       <AuthTemplate>

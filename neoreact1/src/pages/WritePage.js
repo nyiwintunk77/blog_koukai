@@ -9,7 +9,7 @@ const WritePage = () => {
     <>
       <GnbContainer />
       <Helmet>
-          <title>新しい記事を書く - Tomato World</title>
+          <title>新しい記事を書く - KeyKey World</title>
       </Helmet>
       <WriteTemplate>
         <WriteContainer />

@@ -9,5 +9,5 @@ export function setTitle(param) {
     if (username) return `${username}の投稿`;
     if (tag) return `#${tag}`;
 
-    return 'Tomato Blog';
+    return 'NYI Blog';
 }

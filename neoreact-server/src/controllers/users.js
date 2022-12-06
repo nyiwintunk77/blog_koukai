@@ -37,10 +37,8 @@ exports.register = async (req, res) => {
             phone,
         });
 
-        // 패스워드 암호화
         await user.setPassword(password);
 
-        // 데이터베이스에 등록
         await user.save();
         console.log(user);
 

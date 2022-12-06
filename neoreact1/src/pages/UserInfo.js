@@ -7,7 +7,7 @@ const UserInfo = () => {
   return (
     <>
       <Helmet>
-        <title>会員情報 - Tomato World</title>
+        <title>会員情報 - KeyKey World</title>
       </Helmet>
       <GnbContainer />
       <UserInfoContainer />

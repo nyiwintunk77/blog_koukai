@@ -32,7 +32,7 @@ const AuthTemplate = ({ children }) => {
   return (
     <AuthTemplateBlock>
       <WhiteBox>
-        <div className="logo">Welcome to TOMATO</div>
+        <div className="logo">Welcome to NYI</div>
         {children}
       </WhiteBox>
     </AuthTemplateBlock>

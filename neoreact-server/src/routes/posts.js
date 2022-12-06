@@ -5,19 +5,19 @@ const Comment = require('../controllers/comment');
 const Like = require('../controllers/like');
 const middleware = require('../lib/jwtMW');
 
-// 전체목록 가져오기
+
 router.get('/', Post.getPosts);
 
-// post 등록
+
 router.post('/', middleware.checkLoggedIn, Post.createPost);
 
-// id로 찾기
+
 router.get('/:id', Post.checkObjID, Post.getPostById);
 
-// 삭제
+
 router.delete('/:id', middleware.checkLoggedIn, Post.checkObjID, Post.checkOwnPost, Post.deletePost);
 
-// 수정
+
 router.patch('/:id', middleware.checkLoggedIn, Post.checkObjID, Post.checkOwnPost, Post.updatePost);
 
 //comment

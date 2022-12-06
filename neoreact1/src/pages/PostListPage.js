@@ -9,7 +9,7 @@ const PostListPage = () => {
     return (
         <>
             <Helmet>
-                <title>Tomato World</title>
+                <title>KeyKey World</title>
             </Helmet>
             <GnbContainer />
             <div style={{ height: 'calc(80vh)', overflowY: 'auto' }}>

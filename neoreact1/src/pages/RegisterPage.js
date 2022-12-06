@@ -8,7 +8,7 @@ const RegisterPage = () => {
   return (
     <>
       <Helmet>
-        <title>会員登録 - Tomato World</title>
+        <title>会員登録 - KeyKey World</title>
       </Helmet>
       <GnbContainer />
       <AuthTemplate>

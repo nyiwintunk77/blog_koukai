@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
         <Helmet>
-          <title>Tomato World</title>
+          <title>KeyKey World</title>
         </Helmet>
         <Route component={PostListPage} path="/" exact />
         <Route component={LoginPage} path="/login" />

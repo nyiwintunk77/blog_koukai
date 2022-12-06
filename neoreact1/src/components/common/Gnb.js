@@ -71,7 +71,7 @@ const Gnb = ({ history, gnbUserIcon }) => {
                             history.push('/');
                         }}
                     >
-                        TOMATO world
+                        KeyKey world
                     </div>
                     <div className="right">{gnbUserIcon}</div>
                 </Wrapper>

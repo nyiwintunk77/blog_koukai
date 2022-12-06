@@ -8,7 +8,7 @@ const LoginPage = () => {
   return (
     <>
       <Helmet>
-          <title>ログイン - Tomato World</title>
+          <title>ログイン - KeyKey World</title>
       </Helmet>
       <GnbContainer />
       <AuthTemplate>

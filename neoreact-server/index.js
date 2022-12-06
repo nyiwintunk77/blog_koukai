@@ -24,16 +24,14 @@ const connectDB = async () => {
             useNewUrlParser: true,
             useUnifiedTopology: true,
             family: 4,
-            user: USER,
-            pass: PASS,
             dbName: DB_NAME,
             useFindAndModify: false,
             keepAlive: true,
             bufferMaxEntries: 0,
-        });
+        }).then(()=>{console.log('Connected to MongoDB')});
 
-        console.log('몽고DB 접속완료');
     } catch (e) {
+        console.log(e);
         console.dir(e, { depth: 4 });
     }
 };

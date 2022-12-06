@@ -81,7 +81,7 @@ const PostReadList = ({ onPostClick, onListClick, posts, post }) => {
       <table>
         <thead>
           <tr>
-            <th>トマトblogカテゴリー</th>
+            <th>キーキーblogカテゴリー</th>
             <th onClick={onListClick}>
               <RiMenu3Line className="icon" />
             </th>

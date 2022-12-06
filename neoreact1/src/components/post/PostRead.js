@@ -99,7 +99,7 @@ const PostRead = ({ post, user, error, loading, editDelete, onTagClick, username
     return (
         <PostReadBlock>
             <Helmet>
-                <title>{title} - Tomato World</title>
+                <title>{title} - KeyKey World</title>
             </Helmet>
             <div className="header-wrapper">
                 <div>
