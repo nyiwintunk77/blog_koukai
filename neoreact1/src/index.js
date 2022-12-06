@@ -42,7 +42,7 @@ loadLS();
 
 ReactDOM.render(
     <Provider store={store}>
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <BrowserRouter>
             <PersistGate loading={null} persistor={persistor}>
                 <HelmetProvider>
                     <App />
