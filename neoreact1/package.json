@@ -67,5 +67,6 @@
     "redux-devtools-extension": "^2.13.9",
     "redux-logger": "^3.0.6"
   },
-  "homepage": "https://nyiwintunk77.github.io/blog_koukai/"
+  "homepage": "https://nyiwintunk77.github.io/blog_koukai/",
+  "proxy": "http://localhost:4000/"
 }
