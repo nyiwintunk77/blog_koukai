@@ -38,7 +38,9 @@
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -64,5 +66,5 @@
     "redux-devtools-extension": "^2.13.9",
     "redux-logger": "^3.0.6"
   },
-  "proxy": "http://localhost:4000/"
+  "homepage": "https://nyiwintunk77.github.io/blog_koukai/"
 }
