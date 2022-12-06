@@ -19,7 +19,7 @@ const ExAuthForm = ({onClick}) => {
     return (
         <ExAuthFormBlock>
             <div>
-                <input type="image" src="/img/googleLogo.png" alt="google login" onClick={onClick}/>
+                <input type="image" src="./img/googleLogo.png" alt="google login" onClick={onClick}/>
             </div>
         </ExAuthFormBlock>
     );
