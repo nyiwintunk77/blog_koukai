@@ -16,7 +16,7 @@ function App() {
         <Helmet>
           <title>KeyKey World</title>
         </Helmet>
-        <Route component={PostListPage} path="/blog_koukai/" exact />
+        <Route component={PostListPage} path="/" exact />
         <Route component={LoginPage} path="/login" />
         <Route component={RegisterPage} path="/register" />
         <Route component={ReadPage} path="/:username/:postId" />
