@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/blog_koukai/static/css/main.564c7b18.chunk.css",
+    "main.js": "/blog_koukai/static/js/main.10bc68c9.chunk.js",
+    "main.js.map": "/blog_koukai/static/js/main.10bc68c9.chunk.js.map",
+    "runtime-main.js": "/blog_koukai/static/js/runtime-main.1278a22a.js",
+    "runtime-main.js.map": "/blog_koukai/static/js/runtime-main.1278a22a.js.map",
+    "static/js/2.6d889b1f.chunk.js": "/blog_koukai/static/js/2.6d889b1f.chunk.js",
+    "static/js/2.6d889b1f.chunk.js.map": "/blog_koukai/static/js/2.6d889b1f.chunk.js.map",
+    "index.html": "/blog_koukai/index.html",
+    "static/css/main.564c7b18.chunk.css.map": "/blog_koukai/static/css/main.564c7b18.chunk.css.map",
+    "static/js/2.6d889b1f.chunk.js.LICENSE.txt": "/blog_koukai/static/js/2.6d889b1f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1278a22a.js",
+    "static/js/2.6d889b1f.chunk.js",
+    "static/css/main.564c7b18.chunk.css",
+    "static/js/main.10bc68c9.chunk.js"
+  ]
+}
