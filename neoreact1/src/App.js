@@ -17,12 +17,12 @@ function App() {
           <title>KeyKey World</title>
         </Helmet>
         <Route component={PostListPage} path="/blog_koukai/" exact />
-        <Route component={LoginPage} path="/blog_koukai/login" />
-        <Route component={RegisterPage} path="/blog_koukai/register" />
-        <Route component={ReadPage} path="/blog_koukai/:username/:postId" />
-        <Route component={WritePage} path="/blog_koukai/write" />
-        <Route component={UserInfo} path="/blog_koukai/userInfo" />
-        <Route component={UpdateUserPage} path="/blog_koukai/updateuser" /> 
+        <Route component={LoginPage} path="/login" />
+        <Route component={RegisterPage} path="/register" />
+        <Route component={ReadPage} path="/:username/:postId" />
+        <Route component={WritePage} path="/write" />
+        <Route component={UserInfo} path="/userInfo" />
+        <Route component={UpdateUserPage} path="/updateuser" /> 
     </div>
   );
 }
